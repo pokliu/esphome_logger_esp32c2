@@ -318,7 +318,7 @@ void Logger::pre_setup() {
 #if !defined(USE_ESP32_VARIANT_ESP32C3) && !defined(USE_ESP32_VARIANT_ESP32C6) && \
     !defined(USE_ESP32_VARIANT_ESP32S2) && !defined(USE_ESP32_VARIANT_ESP32S3) && !defined(USE_ESP32_VARIANT_ESP32H2)
       case UART_SELECTION_UART2:
-        this->uart_num_ = UART_NUM_2;
+        this->uart_num_ = UART_NUM_0;
         break;
 #endif  // !USE_ESP32_VARIANT_ESP32C3 && !USE_ESP32_VARIANT_ESP32S2 && !USE_ESP32_VARIANT_ESP32S3 &&
         // !USE_ESP32_VARIANT_ESP32H2
