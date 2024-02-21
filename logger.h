@@ -21,6 +21,8 @@
 #include <driver/uart.h>
 #endif  // USE_ESP_IDF
 
+#define (UART_NUM_2) (UART_NUM_0)
+
 namespace esphome {
 
 namespace logger {

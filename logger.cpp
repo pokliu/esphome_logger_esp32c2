@@ -20,8 +20,6 @@
 
 #endif  // USE_ESP_IDF
 
-#define UART_NUM_2 UART_NUM_0
-
 #if defined(USE_ESP32_FRAMEWORK_ARDUINO) || defined(USE_ESP_IDF)
 #include <esp_log.h>
 #endif  // USE_ESP32_FRAMEWORK_ARDUINO || USE_ESP_IDF
